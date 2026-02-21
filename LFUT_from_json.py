@@ -19,7 +19,7 @@ layer_columns = ['levelName', 'gamemode', 'mapName', 'factions']
 faction_columns = ['unitObjectName', 'factionID', 'alliance']
 
     # List of gamemodes that need to be filtered out of layers_info df
-filter_gamemode = ['Seed', 'Training', 'Tutorial']
+filter_gamemode = ['Seed', 'Training', 'Tutorial', 'Lobby', 'Fireteam']
     # List of factions that need to be filtered out of factions_info df
 filter_faction = ['CIV']
     # List of substrings that need to be filtered out of factions_info df
